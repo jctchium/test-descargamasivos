@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sto.pac</groupId>
+  <artifactId>pac-test-descargamasiva</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - pac-test-descargamasiva</name>
+  <url>http://maven.apache.org</url>
+   <dependencies>
+  	<dependency>
+		<groupId>org.bouncycastle</groupId>
+		<artifactId>bcprov-jdk16</artifactId>
+		<version>1.46</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.commons.ssl</groupId>
+    	<artifactId>not-yet-commons-ssl</artifactId>
+    	<version>1.0</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/src/main/resources/not-yet-commons-ssl-0.3.9.jar</systemPath>
+	</dependency>
+	<dependency>
+    	<groupId>dom4j</groupId>
+    	<artifactId>dom4j</artifactId>
+    	<version>1.6.1</version>
+	</dependency>
+	</dependencies>
+</project>
